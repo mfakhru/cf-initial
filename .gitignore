@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.venv-workers/
+
+# Wrangler
+.wrangler/
+node_modules/
+
+# pywrangler generated
+src/vendor/
+
+# Env files
+.env
+.env.local
+.dev.vars

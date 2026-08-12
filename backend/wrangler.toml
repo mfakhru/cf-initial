@@ -1,0 +1,5 @@
+name = "my-init-app-backend"
+main = "main.py"
+compatibility_date = "2026-08-11"
+compatibility_flags = ["python_workers"]
+account_id = "e9144ba7f78116e173a1ee3890bd3cf3"
