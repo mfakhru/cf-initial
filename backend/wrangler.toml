@@ -3,3 +3,12 @@ main = "src/worker.py"
 compatibility_date = "2026-08-11"
 compatibility_flags = ["python_workers", "python_dedicated_snapshot"]
 account_id = "e9144ba7f78116e173a1ee3890bd3cf3"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "request-counter"
+database_id = "6de5a7bb-e57d-4f43-8723-ec835e71d82e"
+migrations_dir = "migrations"
+
+[triggers]
+crons = ["0 0 * * *"]
