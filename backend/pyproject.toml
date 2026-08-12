@@ -7,5 +7,6 @@ dependencies = ["fastapi"]
 
 [dependency-groups]
 dev = [
-    "workers-py>=1.16.2",
+    "workers-py",
+    "workers-runtime-sdk",
 ]
